@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Artificial Intelligence</title>
+    
+   <link rel = "stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/cyborg/bootstrap.min.css">
+   <link rel="icon" href="./ai.png" type="image/gif" sizes="16x16">
+   <style>
+   body {
+  background-color:black;
+}
+.img-round {
+  position: relative;
+  height: 0;
+  padding-bottom: 100%;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.img-round > img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+   
+   </style> 
+</head>
+<body>
+  
+              <div class="row bg-faded mt-2">
+                    <div class="col-4 mx-auto d-flex justify-content-center flex-wrap">
+                        <img class="rounded-circle" src="./images.png"> 
+                    </div>
+                </div>
+
+                <br>
+                <br>
+        <div class="col text-center">
+        <button type="button" class=" talk btn btn-outline-warning">Talk</button>
+        <p class=" content text-warning"></p>
+        </div>
+    <h3 class ="content"></h3>
+
+    <script src="AI.js"></script>
+</body>
+</html>
